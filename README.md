@@ -1,4 +1,4 @@
-# Pomodoro
+# Pomodoro Timer
 
 ---
 Pomodoro timer web app feito com Python e Django, seguindo a live coding do
