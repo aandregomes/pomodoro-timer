@@ -14,7 +14,7 @@ Pomodoro timer web app feito com Python e Django, seguindo a live coding do
 
 ### Lista de tarefas cadastradas
 
-**GET** /api/tasks/
+**GET** /api/tasks
 
 ```json
 [
@@ -33,7 +33,7 @@ Pomodoro timer web app feito com Python e Django, seguindo a live coding do
 
 ### Lista uma tarefa por UID
 
-**GET** /api/tasks/{uid}/
+**GET** /api/tasks/{uid}
 
 ```json
 {
@@ -45,7 +45,7 @@ Pomodoro timer web app feito com Python e Django, seguindo a live coding do
 
 ### Cria uma nova tarefa
 
-**POST** /api/tasks/
+**POST** /api/tasks
 
 ```json
 {
@@ -55,7 +55,7 @@ Pomodoro timer web app feito com Python e Django, seguindo a live coding do
 
 ### Atualiza uma tarefa por UID
 
-**PUT** /api/tasks/{uid}/
+**PUT** /api/tasks/{uid}
 
 ```json
 {
@@ -65,7 +65,7 @@ Pomodoro timer web app feito com Python e Django, seguindo a live coding do
 
 ### Remove uma tarefa por UID
 
-**DELETE** /api/tasks/{uid}/
+**DELETE** /api/tasks/{uid}
 
 ```json
 [
@@ -84,7 +84,7 @@ Pomodoro timer web app feito com Python e Django, seguindo a live coding do
 
 ### Listas os pomodoros de uma tarefa
 
-**GET** api/tasks/{uid}/pomodoro/
+**GET** api/tasks/{uid}/pomodoro
 
 ```json
 {
@@ -117,7 +117,7 @@ Pomodoro timer web app feito com Python e Django, seguindo a live coding do
 
 ### Adiciona um pomodoro a uma tarefa
 
-**POST** api/tasks/{uid}/pomodoro/
+**POST** api/tasks/{uid}/pomodoro
 
 ```json
 {
