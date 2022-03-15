@@ -9,3 +9,6 @@ def test_task_serializer():
     }
     serializer = TaskSerializer(data=task)
     assert serializer.initial_data == task
+    assert "uid" in set(serializer.fields.keys())
+    assert "description" in set(serializer.fields.keys())
+    assert "created_at" in set(serializer.fields.keys())
